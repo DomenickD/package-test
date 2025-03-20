@@ -6,7 +6,7 @@ setup(
     author="Domenick Dobbs",
     author_email="Domenick.dobbs@gmail.com",
     description="A Python package for a modular Streamlit app",
-    packages=find_packages(),
+    packages=find_packages(include=["page_handler", "page_handler.*"]),
     install_requires=[
         "streamlit",
     ],
