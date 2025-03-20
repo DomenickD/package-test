@@ -1,0 +1,2 @@
+[console_scripts]
+my-streamlit-app = my_streamlit_app.app:MyStreamlitApp
