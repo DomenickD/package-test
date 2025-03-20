@@ -1,4 +1,4 @@
-import my_streamlit_app.streamlit as st
+import streamlit as st
 
 
 def show(header1: str, option2: int):

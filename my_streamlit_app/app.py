@@ -1,5 +1,5 @@
 import streamlit as st
-from page_handler import home
+from my_streamlit_app.page_handler import home
 
 
 class MyStreamlitApp:
